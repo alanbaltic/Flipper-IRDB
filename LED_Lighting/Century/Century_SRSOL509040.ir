@@ -14,19 +14,19 @@ name: Off
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 09 00 00 00
+command: 02 00 00 00
 # 
 name: Plus
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 02 00 00 00
+command: 03 00 00 00
 # 
 name: Minus
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 0A 00 00 00
+command: 04 00 00 00
 # 
 name: Up
 type: parsed
@@ -38,7 +38,7 @@ name: Down
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 04 00 00 00
+command: 06 00 00 00
 # 
 name: Auto
 type: parsed
@@ -50,28 +50,70 @@ name: Wake_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 07 00 00 00
+command: 08 00 00 00
 # 
 name: 3h
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 40 00 00 00
+command: 09 00 00 00
 # 
 name: 5h
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 48 00 00 00
+command: 10 00 00 00
 # 
 name: 8h
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 44 00 00 00
+command: 11 00 00 00
 # 
 name: M
 type: parsed
 protocol: NEC
 address: 01 00 00 00
-command: 06 00 00 00
+command: 12 00 00 00
+# 
+name: N
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: O
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: P
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Q
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 16 00 00 00
+# 
+name: R
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 17 00 00 00
+# 
+name: S
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: M
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 19 00 00 00
